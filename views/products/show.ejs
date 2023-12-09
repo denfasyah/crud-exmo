@@ -12,10 +12,11 @@
         <li>Brand : <%= product.brand %></li>
         <li>Warna : <%= product.color %></li>
         <li>Harga : <%= product.price %></li>
-        <li>Ukuran : <%= product.size %></li>
+        <li>Kategori : <%= product.category %></li>
     </ul>
 
     <a href="/products">back</a>
+    <a href="/products/<%= product._id%>/edit" >edit</a>
     
 </body>
 </html>
